@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)",
+      "Bash(where pdftotext *)",
+      "Bash(where mutool *)",
+      "Bash(where gs *)",
+      "Bash(pdftotext \"c:/Users/HHS/WebDevProjects/claim-tracking-app/Case-Study.pdf\" -)",
+      "Bash(pdftotext \"c:/Users/HHS/WebDevProjects/claim-tracking-app/Case-Study.pdf\" /tmp/case-study.txt)",
+      "Read(//tmp/**)",
+      "Bash(pdftotext -layout \"c:/Users/HHS/WebDevProjects/claim-tracking-app/Case-Study.pdf\" /tmp/case-study2.txt)",
+      "Bash(pdfinfo \"c:/Users/HHS/WebDevProjects/claim-tracking-app/Case-Study.pdf\")",
+      "Bash(node -e ' *)",
+      "Bash(grep -E \"^[A-Za-z ]{15,}\")",
+      "Bash(npm install *)",
+      "Bash(pip install *)",
+      "Bash(npx shadcn@latest add badge separator dialog input textarea tooltip sheet scroll-area alert skeleton progress --yes)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:4000)"
+    ]
+  }
+}
