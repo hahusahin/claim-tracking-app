@@ -22,6 +22,10 @@ bun dev
 
 Open [http://localhost:4000](http://localhost:4000) in the browser.
 
+OR
+
+You can browse live demo here: https://claim-tracking-app.vercel.app/
+
 ---
 
 ## Design Decisions
@@ -74,6 +78,8 @@ As it is mentioned to spend 2 hours for the case study, I just focus on the MVP 
 3. **Persistence** — I would save user-inserted notes and attachments to `localStorage` so they survive a page refresh.
 
 4. **Testing** — I would use AI to create tests covering the three core user questions across both mobile and desktop viewports.
+
+5. **Refactor** — I would spend time on refactoring the folders/files that were created by AI Agent.
 
 ---
 
